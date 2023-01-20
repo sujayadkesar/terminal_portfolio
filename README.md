@@ -10,21 +10,16 @@ portfolio in terminal style created by only html css and javascript with diffren
 - Go previous and next command (ctrl+p/⬆️|⬇️)
 - View command history 📖
 - Display weather from some city ☁️🌡️
-- Well-tested ✅ LightHouse
 
 
-**Develpment** - HTML, CSS & JavaScript
+**Develpment** - HTML, CSS & JavaScript <br></br>
 **Deployment** - [Github pages](https://sujayadkesar.github.io/terminal_portfolio/)
 
 ## Multiple Theme
 
 Currently, this website supports 2 themes. Type `theme` in the terminal for more info.
-![multitheme.png](img/multitheme.png)
 
 
-<p align="center">
-<img width="710" alt="aterm Lighthouse Score" src="public/lighthouse-result.svg">
-</p>
 ## Running Locally
 
 Clone this project
