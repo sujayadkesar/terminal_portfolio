@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 550px;
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: larger;
+}
+#page {
+  color: var(--text-color);
+  background:var(--bg-color);
+}
+::selection {
+  color: var(--bg-color);
+  background-color: var(--selection-color);
+}
+::-moz-selection {
+  color: var(--bg-color);
+  background-color: var(--selection-color);
+}
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Cursor Start */
+.cursor {
+  font-size: 12px;
+  color: var(--cursor-color);
+  background-color: var(--cursor-color);
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+#command {
+  cursor: text;
+  height: 50px;
+  color: var(--command-color);
+}
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+.liner {
+  color: var(--liner-color);
+}
+#liner::before {
+  color: yellowgreen;
+  content: 'local_host@terminal.sujay:~$';
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Cursor End */
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+.margin {
+  margin-left: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.index {
+  color: var(--index-color);
+}
+.color2 {
+  color: var(--color2-color);
+}
+.command {
+  color: var(--cmd-color);
+  text-shadow: 0 0 5px var(--cmd-shadow);
+}
+.error {
+  color: var(--error-color);
+}
+.inherit,
+a {
+  color: var(--link-color);
+}
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  background-color: var(--link-hover-bg);
+  color: var(--link-hover-color);
+}
+a:focus {
+  outline: 0;
+}
+
+
+.helpdes{
+  color:bisque;
+}
+
