@@ -9,7 +9,6 @@ portfolio in terminal style created by only html css and javascript with diffren
 - Autocomplete feature ✨ (TAB)
 - Go previous and next command (ctrl+p/⬆️|⬇️)
 - View command history 📖
-- Display weather from some city ☁️🌡️
 
 
 **Develpment** - HTML, CSS & JavaScript <br></br>
