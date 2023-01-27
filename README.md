@@ -1,7 +1,10 @@
-# Terminal Porfolio 
+# Terminal Portfolio 🤖🐺
 
-portfolio in terminal style created by only html css and javascript with diffrent themes aswell as shortcuts and autocomplete commands features.
+Welcome to my terminal-based portfolio! This site was created to showcase my projects and skills in a unique and creative way.
 
+## Navigation
+
+Use the arrow keys to navigate through the different sections of the site. Press enter to enter a section or view a project.
 ## Features
 
 - Responsive Design 📱💻
